@@ -1,0 +1,314 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+	border:0;
+	font-family:inherit;
+	font-size:100%;
+	font-style:inherit;
+	font-weight:inherit;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+}
+body {
+	font-family: 'ProximaNova-Semibold';
+	color: #444444;
+	min-width: 1242px;
+	background-color: #444444;
+}
+.container {
+	width: 1242px;
+	padding: 0;
+}
+.navbar {
+	background-color: #444444;
+	padding-right: 20px;
+	padding-left: 70px;
+	border-radius: 0;
+	margin: 0;
+	border: 0px;
+}
+h1 {
+	font-size: 48px;
+}
+.navbar h1 {
+	color: #fff;
+	float: left;
+	margin: 0;
+	padding-top: 65px;
+}
+.gamb-button {
+	display: table;
+	float: left;
+	margin-right: 40px;
+	padding: 45px 10px;
+}
+.icon-bar {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: #fff;
+	height: 5px;
+	width: 70px;
+	border-radius: 1px;
+}
+.circle {
+	width: 110px;
+	height: 110px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	float: left;
+	overflow: hidden;
+	margin: 35px 0;
+	background: url(images/avatar.png) center left;
+	position: relative;
+}
+.caret-down {
+	background: url(images/arrow-down.png) center left;
+	top: 45%;
+	position: absolute;
+	margin-left: 20px;
+	width: 35px;
+	height: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.notification-block {
+	position: relative;
+	height: 180px;
+}
+.notification-icon {
+	background: url(images/notification.png) center;
+	width: 60px;
+	height: 60px;
+	background-size: contain;
+	top: 35%;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+.circle-2 {
+	width: 50px;
+	height: 50px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	float: right;
+	overflow: hidden;
+	margin: 20px 0;
+	background-color: #D71819;
+	position: relative;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.notification-count {
+	position: absolute;
+	top: 3px;
+	width: 50px;
+	display: table;
+	text-align: center;
+}
+.content{
+	background-color: #444444;
+	padding-bottom: 35px;
+}
+.room {
+	background-color: #E7E7E7;
+	text-align: center;
+	position: relative;
+	margin: 0px 35px;
+	-webkit-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.75);
+}
+.room h1 {
+	margin-top: 75px;
+	font-size: 60px;
+}
+.room-number {
+	font-size: 205px;
+	color:#888888;
+	font-family: 'ProximaNovaA-Light';
+}
+.close-button {
+	background: url(images/close.png);
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	border: 0px;
+}
+.status-block {
+	display: table;
+	width: 28%;
+	margin:auto;
+	margin-bottom: 75px;
+}
+.status-block h1 {
+	margin: 0;
+}
+.circle-3 {
+	width: 40px;
+	height: 40px;
+	margin-top: 15px;
+	margin-right: 20px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	overflow: hidden;
+	background-color: #56D04D;
+	float: left;
+}
+.lock-section {
+	border:1px solid #A1A1A1;
+	background-color: #E7E7E7;
+}
+.lock-section h1 {
+	font-size: 36px;
+	margin-top: 40px;
+	float: left;
+	width: 100%;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}
+.circle-4 {
+	width: 212px;
+	height: 212px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	overflow: hidden;
+	float: left;
+	margin-top: 85px;
+	margin-left: 170px;
+	position: relative;
+}
+.locked {
+	background-color: #B25B88;
+	position: relative;
+}
+.locked-img {
+	background: url(images/lock-close.png);
+} 
+.unlocked-img {
+	background: url(images/lock-open.png);
+}
+.locked-img, .unlocked-img  {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 90px;
+	height: 120px;
+	top: 20%;
+	left: 60px;
+}
+.purple {
+	color: #B25B88;
+}
+.unlocked {
+	border:2px solid #888888;
+}
+.bluetooth h1 {
+	font-size: 48px;
+	font-family: 'ProximaNovaA-Regular';
+	margin: 75px 0 0 45px;
+	float: left;
+	text-align: left;
+	display: table;
+}
+.circle-5 {
+	width: 120px;
+	height: 120px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	overflow: hidden;
+	background-color: #85AFF4;
+	float: left;
+	position: relative;
+	margin: 70px 0px 80px 60px;
+}
+.bluetooth-img {
+	background: url(images/bluetooth.png) center no-repeat;
+	position: absolute;
+	background-size: contain;
+	width: 40px;
+	height: 70px;
+	top: 22%;
+	left: 40px;
+}
+.share-key {
+	border:1px solid #A1A1A1;
+	background-color: #E7E7E7;
+	display: table;
+  width: 100%;
+}
+.key {
+	font-size: 96px;
+	font-family: 'ProximaNovaA-Semibold';
+	float: left;
+	margin-top: 35px;
+	margin-right: 80px;
+}
+.circle-6 {
+	width: 75px;
+	height: 75px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	overflow: hidden;
+	float: left;
+	border:3px solid #A1A1A1;
+	position: relative;
+	margin: 70px 80px 90px 70px;
+}
+.share-img {
+	background: url(images/share-icon.png)no-repeat center;
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	left: 12px;
+	top: 18px;
+}
+.circle-7 {
+	width: 110px;
+	height: 110px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	overflow: hidden;
+	float: left;
+	border:3px solid #A1A1A1;
+	position: relative;
+	margin: 51px 30px 0 0;
+}
+.whatsapp-img, .chat-img, .mail-img {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+}
+.whatsapp-img {
+	background: url(images/whatsapp.png)no-repeat center;
+	left: 24px;
+	top: 23px;
+}
+.chat-img {
+	background: url(images/chat.png)no-repeat center;
+	left: 22px;
+	top: 25px;
+}
+.mail-img {
+	background: url(images/mail.png)no-repeat center;
+	left: 22px;
+	top: 20px;
+}
+footer .container {
+	height: 300px;
+	background: url(images/panoramic-suites.png)no-repeat center top;
+}
+
+
+
